@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mv-consultora/static/css/main.bf29e299.css",
+    "main.js": "/mv-consultora/static/js/main.99f435b2.js",
+    "static/media/bg-sponsors.jpg": "/mv-consultora/static/media/bg-sponsors.036b9f610d8536e0c627.jpg",
+    "static/media/backgroundMain.mp4": "/mv-consultora/static/media/backgroundMain.a97e5aa0d0de019aeedd.mp4",
+    "static/media/interval-logo.png": "/mv-consultora/static/media/interval-logo.17bc57e61716a82895aa.png",
+    "static/media/google-logo.png": "/mv-consultora/static/media/google-logo.7aee7453c2ad36a9cfa4.png",
+    "static/media/facebook-logo.png": "/mv-consultora/static/media/facebook-logo.e887eb0a590ad91cc9fd.png",
+    "static/media/logoMV.png": "/mv-consultora/static/media/logoMV.17fd2a5d9e32274f8249.png",
+    "static/media/ADT-logo.png": "/mv-consultora/static/media/ADT-logo.67bbe8a8ed7dc58722ab.png",
+    "static/media/analytics-logo.png": "/mv-consultora/static/media/analytics-logo.3664e0826bbf004efbe0.png",
+    "static/media/cheque.png": "/mv-consultora/static/media/cheque.e48e4662e6a6415b83ca.png",
+    "static/media/passport-logo.png": "/mv-consultora/static/media/passport-logo.5b9ecafd5cdb6669eff7.png",
+    "index.html": "/mv-consultora/index.html",
+    "main.bf29e299.css.map": "/mv-consultora/static/css/main.bf29e299.css.map",
+    "main.99f435b2.js.map": "/mv-consultora/static/js/main.99f435b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf29e299.css",
+    "static/js/main.99f435b2.js"
+  ]
+}
