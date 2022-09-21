@@ -1,7 +1,7 @@
 .App {
   text-align: center;
+  scroll-behavior: auto;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+:root {
+  --blue: #00c1ca;
 }
 
 .App-header {

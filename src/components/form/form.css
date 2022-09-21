@@ -1,0 +1,133 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+#video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#backgound-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background: var(--blue);
+  filter: opacity(10%);
+}
+
+video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: opacity(100%);
+}
+
+.main {
+  height: calc(100vh - 90px);
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  height: 100%;
+  max-width: 1300px;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 115px;
+}
+.mainDivTitulo {
+  color: white;
+  font-size: 55px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.mainDivTitulo > span {
+  font-weight: bold;
+  font-size: 60px;
+}
+.mainDivDescripcion {
+  font-size: 20px;
+  color: white;
+}
+
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.mainFormLabelNombre {
+  border: none;
+  border-radius: 5px;
+  width: 650px;
+  height: 50px;
+  background-color: white;
+  padding: 12px;
+}
+
+.mainFormLabelNombre::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+.mainFormLabelEmail {
+  border: none;
+  border-radius: 5px;
+  width: 650px;
+  height: 50px;
+  background-color: white;
+  padding: 15px;
+}
+.mainFormLabelEmail::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+.textArea {
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  width: 650px;
+  height: 120px;
+  background-color: white;
+  padding: 15px;
+}
+
+.textArea::placeholder {
+  font-size: 1rem;
+  color: black;
+}
+
+.btnSubmit {
+  padding: 15px 22px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.btnSubmit:hover {
+  background-color: var(--blue);
+  color: white;
+  cursor: pointer;
+}

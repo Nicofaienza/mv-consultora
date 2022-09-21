@@ -1,0 +1,128 @@
+#about-us {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  background: #fff;
+}
+
+#about-us__bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#about-us__wrapper {
+  display: flex;
+  max-width: 1300px;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#about-us__info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-us__info-container__wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+#about-us__title {
+  font-size: 2.2rem;
+  position: relative;
+  z-index: 5;
+}
+
+.about-us__info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  z-index: 5;
+}
+
+.about-us__info-number {
+  font-size: 50px;
+  color: #000;
+}
+
+.about-us__info-text {
+  width: min-content;
+}
+
+#about-us__tools-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#about-us__imgs-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#about-us__imgs-container > h3 {
+  font-size: 1.8rem;
+  position: relative;
+  z-index: 5;
+}
+
+#about-us__facebook-logo {
+  height: 30px;
+}
+
+#about-us__google-logo {
+  position: relative;
+  top: 4px;
+}
+
+.about-us__logo {
+  height: 35px;
+}
+
+.abouts-us__title {
+  display: flex;
+  flex-direction: column;
+  margin: none;
+  padding: none;
+}
+
+/* Css del Nos Encargamos de Todo */
+
+#about-us__info-container__wrapper2 {
+  display: flex;
+  height: 40%;
+}
+
+.abouts-us__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+}
+
+.about-us__info2 {
+  display: flex;
+  margin: 100px;
+  flex-direction: column;
+}
+
+.about-us__info2-number {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.about-us__info2-text {
+  display: flex;
+  text-align: center;
+}
