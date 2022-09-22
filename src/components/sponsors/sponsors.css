@@ -1,19 +1,19 @@
 #sponsors {
   width: 100%;
-  height: calc(100vh - 90px);
+  height: 70vh;
   position: relative;
   scroll-behavior: smooth;
+  background-image: url("../../images/bg-sponsors.png");
+  background-size: cover;
+  background-position: center bottom;
 }
 
 #sponsors__bg {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -1;
-  background-image: url("../../images/bg-sponsors.jpg");
-  background-size: cover;
-
-  filter: brightness(30%) opacity(85%);
+  background: #011a1f;
+  filter: opacity(80%);
 }
 
 #sponsors__wrapper {
@@ -28,6 +28,12 @@
 #sponsors__title {
   color: #fff;
   font-size: 2em;
+  position: relative;
+  z-index: 5;
+}
+
+#sponsors__title > span {
+  color: var(--blue);
 }
 
 #sponsors__logos-container {
@@ -48,15 +54,25 @@
 
 #sponsors__form__text {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.9em;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 5;
 }
 
 #sponsors__form__button {
   padding: 15px 20px;
-  background: var(--blue);
-  color: #fff;
+  background: white;
+  color: black;
   cursor: pointer;
   font-size: 1.1rem;
   border: none;
   border-radius: 5px;
+  position: relative;
+  z-index: 5;
+}
+
+#sponsors__form__button:hover {
+  color: white;
+  background: var(--blue);
 }

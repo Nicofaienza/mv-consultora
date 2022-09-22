@@ -1,8 +1,8 @@
-import { HiUsers } from "react-icons/hi";
-import { BsFillTelephoneFill, BsFileBarGraph } from "react-icons/bs";
+import { HiOutlineUsers } from "react-icons/hi";
+import { BsTelephone, BsFileBarGraph } from "react-icons/bs";
 import {
   AiOutlineExclamationCircle,
-  AiFillFacebook,
+  AiOutlineFacebook,
   AiOutlineDatabase,
 } from "react-icons/ai";
 import { FaBalanceScaleLeft } from "react-icons/fa";
@@ -24,7 +24,7 @@ const Services = () => {
             </p>
           </div>
           <div className="services__article-wrapper">
-            <HiUsers />
+            <HiOutlineUsers />
             <p>Generacion de clientes potenciales</p>
           </div>
         </article>
@@ -40,7 +40,7 @@ const Services = () => {
             </p>
           </div>
           <div className="services__article-wrapper">
-            <BsFillTelephoneFill />
+            <BsTelephone />
             <p>Venta Telefónica</p>
           </div>
         </article>
@@ -73,12 +73,12 @@ const Services = () => {
             </p>
           </div>
           <div className="services__article-wrapper">
-            <AiFillFacebook />
+            <AiOutlineFacebook />
             <p>Gestión de Redes Sociales</p>
           </div>
         </article>
 
-        <article className="services__article">
+        <article className="services__article2">
           <div className="article__div-hover">
             <p className="hover-text"></p>
           </div>
@@ -88,7 +88,7 @@ const Services = () => {
           </div>
         </article>
 
-        <article className="services__article">
+        <article className="services__article2">
           <div className="article__div-hover">
             <p className="hover-text"></p>
           </div>
@@ -98,7 +98,7 @@ const Services = () => {
           </div>
         </article>
 
-        <article className="services__article">
+        <article className="services__article2">
           <div className="article__div-hover">
             <p className="hover-text"></p>
           </div>
@@ -108,7 +108,7 @@ const Services = () => {
           </div>
         </article>
 
-        <article className="services__article">
+        <article className="services__article2">
           <div className="article__div-hover">
             <p className="hover-text"></p>
           </div>

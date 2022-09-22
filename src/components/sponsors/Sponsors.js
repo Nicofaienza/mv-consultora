@@ -21,7 +21,7 @@ const Sponsors = () => {
           <p id="sponsors__form__text">Ponete en contacto con nosotros</p>
           <a href="#form">
             <button id="sponsors__form__button">
-              IR AL FORMULARIO DE CONTACTO
+              Ir al formulario de contacto
             </button>
           </a>
         </div>
