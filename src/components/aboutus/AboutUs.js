@@ -53,32 +53,43 @@ const AboutUs = () => {
         </div>
       </div>
       <div id="about-us__orders-container">
-        <h2 id="abouts-us__orders-title">Nos encargamos de todo</h2>
-
         <div id="about-us__orders__cards-container">
-          <div className="about-us___orders__cards">
+          <div
+            id="about-us__orders__card1"
+            className="about-us___orders__cards"
+          >
             <img className="about-us__orders__cards-img" src={img1} />
-            <p className="about-us__orders__cards-title">Campañas Multicanal</p>
+            <h3 className="about-us__orders__cards-title">
+              Campañas Multicanal
+            </h3>
             <p className="about-us__orders__cards-paragraph">
               Desarrollamos y ejecutamos campañas en distintos canales online y
               offline con el objetivo fijado en resultados.
             </p>
           </div>
 
-          <div className="about-us___orders__cards">
+          <div
+            id="about-us__orders__card2"
+            className="about-us___orders__cards"
+          >
             <img className="about-us__orders__cards-img" src={img2} />
-            <p className="about-us__orders__cards-title">
+            <h3 className="about-us__orders__cards-title">
               Materiales de promoción
-            </p>
+            </h3>
             <p className="about-us__orders__cards-paragraph">
               Planificamos, diseñamos y ponemos en marcha distintas
               creatividades adaptadas para canal.
             </p>
           </div>
 
-          <div className="about-us___orders__cards">
+          <div
+            id="about-us__orders__card3"
+            className="about-us___orders__cards"
+          >
             <img className="about-us__orders__cards-img" src={img3} />
-            <p className="about-us__orders__cards-title">Software de Gestión</p>
+            <h3 className="about-us__orders__cards-title">
+              Software de Gestión
+            </h3>
             <p className="about-us__orders__cards-paragraph">
               Utilizamos diversos software de gestión que son adaptados según la
               necesidad del cliente a sus procesos de venta.
