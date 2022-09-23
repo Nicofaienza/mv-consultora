@@ -15,10 +15,11 @@
 
 #about-us__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 130px;
+  padding-bottom: 90px;
   max-width: 1300px;
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin: auto;
 }
@@ -29,13 +30,14 @@
   align-items: flex-start;
   justify-content: center;
   gap: 15px;
+  height: fit-content;
 }
 
 #about-us__info-container__wrapper {
   display: flex;
   gap: 40px;
-  width: 50%;
   align-items: center;
+  justify-content: flex-end;
 }
 
 #about-us__title {
@@ -49,8 +51,8 @@
 }
 
 .about-us__info {
-  width: 200px;
-  height: 200px;
+  min-width: 150px;
+  min-height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,13 +65,13 @@
 }
 
 .about-us__info-number {
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: var(--blue);
   margin: 0;
 }
 
 .about-us__info-text {
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: min-content;
   text-align: center;
 }
@@ -103,21 +105,21 @@
 /* Css del Nos Encargamos de Todo */
 
 #about-us__orders-container {
-  height: 45vh;
+  height: fit-content;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 45px;
+  justify-content: center;
+  padding: 40px 0;
+  border-radius: 40px;
   background: var(--blue);
 }
 
 #about-us__orders__cards-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   max-width: 1300px;
-  width: 100%;
+  width: 90%;
   height: 100%;
   gap: 70px;
   position: relative;
@@ -125,49 +127,153 @@
 
 .about-us___orders__cards {
   display: flex;
-  min-width: 300px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  width: 300px;
   gap: 20px;
-  background: var(--blue);
-  padding: 40px 20px;
-  border-radius: 80px;
-  position: absolute;
-}
-
-#about-us__orders__card1 {
-  left: 0;
-  top: -40px;
-}
-
-#about-us__orders__card2 {
-  bottom: -40px;
-}
-
-#about-us__orders__card3 {
-  right: 0;
-  top: -40px;
 }
 
 .about-us__orders__cards-img {
-  width: 100px;
-  filter: brightness(0);
+  width: 110px;
   border-radius: 10px;
-}
-
-#about-us__orders__cards-container {
-  display: flex;
-}
-
-.about-us__orders__cards-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  width: 200px;
-  text-align: center;
+  filter: brightness(0);
 }
 
 .about-us__orders__cards-paragraph {
   text-align: center;
-  width: 200px;
+  font-size: 1.2rem;
+  width: 75%;
+  color: #000;
+}
+.about-us__orders__cards-title {
+  text-align: center;
+  color: #000;
+}
+
+/*Orders section desktop*/
+
+@media screen and (min-width: 1150px) {
+  #about-us__orders-container {
+    height: 45vh;
+    position: relative;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  #about-us__wrapper {
+    padding-bottom: 130px;
+  }
+
+  #about-us__orders__cards-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about-us___orders__cards {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 50px;
+    position: absolute;
+    padding: 0 30px;
+    background: var(--blue);
+  }
+
+  #about-us__orders__card1 {
+    left: 0;
+    top: -40px;
+    padding-top: 40px;
+  }
+
+  #about-us__orders__card2 {
+    bottom: -40px;
+    padding-bottom: 40px;
+  }
+
+  #about-us__orders__card3 {
+    right: 0;
+    top: -40px;
+    padding-top: 40px;
+  }
+
+  .about-us__orders__cards-img {
+    width: 110px;
+    border-radius: 10px;
+  }
+
+  #about-us__orders__cards-container {
+    display: flex;
+  }
+
+  .about-us__orders__cards-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .about-us__orders__cards-paragraph {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1095px) {
+  #about-us__wrapper {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  #about-us__title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  #about-us__imgs-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #about-us__facebook-logo {
+    height: 17px;
+  }
+
+  .about-us__logo {
+    height: 20px;
+  }
+
+  #about-us__info-container__wrapper {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #about-us__info-container {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .about-us__info {
+    min-width: 100px;
+    min-height: 100px;
+  }
+
+  .about-us__info-number {
+    font-size: 2rem;
+  }
+
+  .about-us__info-text {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
 }

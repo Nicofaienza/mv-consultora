@@ -1,6 +1,7 @@
 #sponsors {
   width: 100%;
-  height: 60vh;
+  padding: 50px 0;
+  height: fit-content;
   position: relative;
   scroll-behavior: smooth;
   background-image: url("../../images/bg-sponsors.png");
@@ -14,15 +15,17 @@
   position: absolute;
   background: #011a1f;
   filter: opacity(80%);
+  top: 0;
 }
 
 #sponsors__wrapper {
   height: 100%;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 50px;
 }
 
 #sponsors__title {
@@ -30,11 +33,15 @@
   font-size: 2em;
   position: relative;
   z-index: 5;
+  text-align: center;
 }
 
 #sponsors__logos-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
+  width: 60%;
 }
 
 .sponsors__logo {
@@ -46,14 +53,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 }
 
 #sponsors__form__text {
   color: #fff;
   font-size: 1.9em;
-  padding-bottom: 70px;
   position: relative;
   z-index: 5;
+  text-align: center;
 }
 
 #sponsors__form__button {
@@ -66,9 +74,28 @@
   border-radius: 5px;
   position: relative;
   z-index: 5;
+  transition: all 0.1s ease;
 }
 
 #sponsors__form__button:hover {
   color: white;
   background: var(--blue);
+}
+
+@media screen and (max-width: 1095px) {
+  #sponsors__title {
+    font-size: 1.5em;
+  }
+
+  .sponsors__logo {
+    height: 50px;
+  }
+
+  #sponsors__form__text {
+    font-size: 1.4em;
+  }
+
+  #sponsors__form__button {
+    font-size: 1rem;
+  }
 }

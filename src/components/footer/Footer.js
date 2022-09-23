@@ -6,7 +6,7 @@ import { RiInstagramLine } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer id="footer">
         <div className="containerFooter">
           <a target="_blank" title="linkImgFooter" href="http://rasanorte.com">
             <img className="imgFooter" src={logoFooter} alt="linkImgFooter" />

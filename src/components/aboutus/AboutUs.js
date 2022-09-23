@@ -1,7 +1,6 @@
 import facebook from "../../images/facebook-logo.png";
 import google from "../../images/google-logo.png";
 import analytics from "../../images/analytics-logo.png";
-import cheque from "../../images/cheque.png";
 import img1 from "../../images/aboutus-img1.png";
 import img2 from "../../images/aboutus-img2.png";
 import img3 from "../../images/aboutus-img3.png";
@@ -77,8 +76,9 @@ const AboutUs = () => {
               Materiales de promoción
             </h3>
             <p className="about-us__orders__cards-paragraph">
-              Planificamos, diseñamos y ponemos en marcha distintas
-              creatividades adaptadas para canal.
+              Planificamos, diseñamos y ponemos en marcha distintas estrategias
+              de promoción para potenciar el alcance y la eficiencia de tus
+              productos.
             </p>
           </div>
 

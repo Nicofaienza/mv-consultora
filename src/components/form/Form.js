@@ -1,7 +1,8 @@
 import "./form.css";
-import backgroundMain from "./video/backgroundMain.mp4";
+import bgForm from "./video/bg-form-slow.mp4";
 import emailjs from "emailjs-com";
 import { useState } from "react";
+
 const Form = () => {
   const [nombreEmpresa, setNombreEmpresa] = useState("");
   const [email, setEmail] = useState("");
@@ -42,8 +43,8 @@ const Form = () => {
     <section className="main" id="form">
       <div id="video-container">
         <div id="backgound-video"></div>
-        <video muted autoPlay loop>
-          <source src={backgroundMain} type="video/mp4" />
+        <video id="video" muted autoPlay loop>
+          <source src={bgForm} type="video/mp4" />
         </video>
       </div>
 
@@ -56,6 +57,7 @@ const Form = () => {
             Convertite en uno de nuestros casos de exito
           </p>
         </div>
+
         <form className="mainForm" action="Submit" onSubmit={enviarEmail}>
           <label className="mainFormLabel" htmlFor="">
             <input
@@ -69,7 +71,7 @@ const Form = () => {
               value={nombreEmpresa}
             ></input>
           </label>
-          <label htmlFor="">
+          <label className="mainFormLabel" htmlFor="">
             <input
               className="mainFormLabelEmail"
               placeholder="Email"
@@ -81,20 +83,18 @@ const Form = () => {
               value={email}
             ></input>
           </label>
-          <label htmlFor="">
-            <textarea
-              className="textArea"
-              placeholder="Dejanos tu mensaje"
-              id="mensaje"
-              name="mensaje"
-              required
-              onChange={handleChangeMsg}
-              value={mensaje}
-            />
-          </label>
-          <label htmlFor="">
-            <button className="btnSubmit">Empezar ya</button>
-          </label>
+
+          <textarea
+            className="textArea"
+            placeholder="Dejanos tu mensaje"
+            id="mensaje"
+            name="mensaje"
+            required
+            onChange={handleChangeMsg}
+            value={mensaje}
+          />
+
+          <button className="btnSubmit">Empezar ya</button>
         </form>
       </div>
     </section>
