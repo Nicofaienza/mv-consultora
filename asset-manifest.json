@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mv-consultora/static/css/main.05be6662.css",
-    "main.js": "/mv-consultora/static/js/main.d42351eb.js",
-    "static/media/backgroundMain.mp4": "/mv-consultora/static/media/backgroundMain.a97e5aa0d0de019aeedd.mp4",
+    "main.css": "/mv-consultora/static/css/main.5a1060a2.css",
+    "main.js": "/mv-consultora/static/js/main.59aaa7f5.js",
+    "static/media/bg-form-slow.mp4": "/mv-consultora/static/media/bg-form-slow.4c21059b19b3ae0fcfb0.mp4",
     "static/media/interval-logo.png": "/mv-consultora/static/media/interval-logo.17bc57e61716a82895aa.png",
     "static/media/bg-sponsors.png": "/mv-consultora/static/media/bg-sponsors.fd3d0cb1c97c310b4f10.png",
     "static/media/google-logo.png": "/mv-consultora/static/media/google-logo.7aee7453c2ad36a9cfa4.png",
@@ -11,16 +11,15 @@
     "static/media/logoMV.png": "/mv-consultora/static/media/logoMV.17fd2a5d9e32274f8249.png",
     "static/media/aboutus-img2.png": "/mv-consultora/static/media/aboutus-img2.fdacbed278ba22f2221e.png",
     "static/media/analytics-logo.png": "/mv-consultora/static/media/analytics-logo.3664e0826bbf004efbe0.png",
-    "static/media/cheque.png": "/mv-consultora/static/media/cheque.e48e4662e6a6415b83ca.png",
     "static/media/aboutus-img3.png": "/mv-consultora/static/media/aboutus-img3.02d913475a92ae297721.png",
     "static/media/passport-logo.png": "/mv-consultora/static/media/passport-logo.5b9ecafd5cdb6669eff7.png",
     "static/media/aboutus-img1.png": "/mv-consultora/static/media/aboutus-img1.f9a84d54638fd7e0c288.png",
     "index.html": "/mv-consultora/index.html",
-    "main.05be6662.css.map": "/mv-consultora/static/css/main.05be6662.css.map",
-    "main.d42351eb.js.map": "/mv-consultora/static/js/main.d42351eb.js.map"
+    "main.5a1060a2.css.map": "/mv-consultora/static/css/main.5a1060a2.css.map",
+    "main.59aaa7f5.js.map": "/mv-consultora/static/js/main.59aaa7f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.05be6662.css",
-    "static/js/main.d42351eb.js"
+    "static/css/main.5a1060a2.css",
+    "static/js/main.59aaa7f5.js"
   ]
 }
