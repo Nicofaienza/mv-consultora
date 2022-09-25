@@ -33,22 +33,34 @@ const Header = () => {
             </a>
             <ul className="list">
               <li>
-                <a className="listElement" href="#">
+                <a className="listElement" href="#" onClick={handleShowMenu}>
                   Inicio
                 </a>
               </li>
               <li>
-                <a className="listElement" href="#about-us">
+                <a
+                  className="listElement"
+                  href="#about-us"
+                  onClick={handleShowMenu}
+                >
                   Nosotros
                 </a>
               </li>
               <li>
-                <a className="listElement" href="#services">
+                <a
+                  className="listElement"
+                  href="#services"
+                  onClick={handleShowMenu}
+                >
                   Servicios
                 </a>
               </li>
               <li>
-                <a className="listElement" href="#form">
+                <a
+                  className="listElement"
+                  href="#form"
+                  onClick={handleShowMenu}
+                >
                   Contacto
                 </a>
               </li>
@@ -62,22 +74,38 @@ const Header = () => {
             <div class={showMenu ? "menu-responsive open" : "menu-responsive"}>
               <ul id="menu-responsive__ul">
                 <li className="menu-responsive__li">
-                  <a className="menu-responsive__link" href="#">
+                  <a
+                    className="menu-responsive__link"
+                    href="#"
+                    onClick={handleShowMenu}
+                  >
                     Inicio
                   </a>
                 </li>
                 <li className="menu-responsive__li">
-                  <a className="menu-responsive__link" href="#about-us">
+                  <a
+                    className="menu-responsive__link"
+                    href="#about-us"
+                    onClick={handleShowMenu}
+                  >
                     Nosotros
                   </a>
                 </li>
                 <li className="menu-responsive__li">
-                  <a className="menu-responsive__link" href="#services">
+                  <a
+                    className="menu-responsive__link"
+                    href="#services"
+                    onClick={handleShowMenu}
+                  >
                     Servicios
                   </a>
                 </li>
                 <li className="menu-responsive__li">
-                  <a className="menu-responsive__link" href="#form">
+                  <a
+                    className="menu-responsive__link"
+                    href="#form"
+                    onClick={handleShowMenu}
+                  >
                     Contacto
                   </a>
                 </li>

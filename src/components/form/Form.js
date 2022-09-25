@@ -1,5 +1,5 @@
 import "./form.css";
-import bgForm from "./video/bg-form-slow.mp4";
+import bgForm from "./video/bg-form-slow_2.mp4";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 

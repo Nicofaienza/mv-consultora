@@ -7,15 +7,15 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
 }
 
 #fixedHeader {
   height: 90px;
   width: 100%;
-  position: fixed;
-  top: 0;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 100;
 }
 
 .containerHeader {
@@ -71,12 +71,12 @@ header {
 }
 
 .menu-responsive {
+  width: 100vw;
   display: flex;
   position: absolute;
   top: 90px;
-  right: -1000px;
+  right: -3000px;
   flex-direction: column;
-  color: #fff;
   background: rgba(0, 0, 0, 0.8);
   transition: all 0.3s ease;
 }
@@ -104,7 +104,8 @@ header {
 .menu-responsive__link {
   text-decoration: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1100px) {

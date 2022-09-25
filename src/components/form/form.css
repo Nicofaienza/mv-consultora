@@ -33,7 +33,7 @@ video {
 }
 
 .main {
-  height: calc(100vh - 90px);
+  height: 100vh;
   scroll-behavior: smooth;
   width: 100%;
   display: flex;
@@ -144,8 +144,9 @@ video {
 @media screen and (max-width: 1100px) {
   .container {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 5%;
   }
 
   .mainDiv {
@@ -172,6 +173,9 @@ video {
   .mainForm {
     align-items: center;
     min-width: 275px;
+  }
+  .btnSubmit {
+    font-size: 0.8rem;
   }
 }
 
