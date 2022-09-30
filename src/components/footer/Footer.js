@@ -1,48 +1,50 @@
 import "./footer.css";
 import logoFooter from "../../images/rasaNorteLogo.png";
-import { RiFacebookCircleLine } from "react-icons/ri";
-import { RiInstagramLine } from "react-icons/ri";
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import logo from "../../images/logoMV.png";
 
 const Footer = () => {
   return (
     <>
       <footer id="footer">
-        <div className="containerFooter">
-          <a target="_blank" title="linkImgFooter" href="http://rasanorte.com">
-            <img className="imgFooter" src={logoFooter} alt="linkImgFooter" />
-          </a>
-          <ul className="footerList">
-            <li>
-              <a
-                target="_blank"
-                className="footerListElement"
-                href="https://www.facebook.com/mvconsultoralatam/"
-              >
-                <RiFacebookCircleLine className="footerIcon" />
-                |mvconsultoralatam
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                className="footerListElement"
-                href="https://www.instagram.com/salonarraial/?hl=es-la"
-              >
-                <RiInstagramLine className="footerIcon" />
-                |salonarraial
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                className="footerListElement"
-                href="https://www.instagram.com/zonanortemultiespacio/?hl=es-la"
-              >
-                <RiInstagramLine className="footerIcon" />
-                |zonanortemultiespacio
-              </a>
-            </li>
-          </ul>
+        <div id="footer__wrapper">
+          <img id="footer__logo" src={logo} />
+          <div id="footer__info-container">
+            <ul id="footer__info-list">
+              <li className="footer__info-container__li">
+                Email: example@gmail.com
+              </li>
+              <li className="footer__info-container__li">
+                Teléfono: 0223-X-XXXXXX
+              </li>
+              <li className="footer__info-container__li">
+                Dirección: Fake Street 123
+              </li>
+            </ul>
+            <ul id="footer__icons-container">
+              <li className="footer__icons-container-li">
+                <a
+                  target="_blank"
+                  className="footer__icons-container-link"
+                  href="https://www.facebook.com/mvconsultoralatam/"
+                >
+                  <FaFacebookSquare className="footer__icon" />
+                </a>
+              </li>
+              <li className="footer__icons-container-li">
+                <a
+                  target="_blank"
+                  className="footer__icons-container-link"
+                  href="https://www.linkedin.com/in/mv-consultora-142403212/"
+                >
+                  <FaLinkedin className="footer__icon" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footer__copy">
+          © Copyright 2022. All Rights Reserved by MV-Consultora
         </div>
       </footer>
     </>
