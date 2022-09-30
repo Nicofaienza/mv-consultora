@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mv-consultora/static/css/main.4c395b60.css",
+    "main.css": "/mv-consultora/static/css/main.e8ad57dc.css",
     "main.js": "/mv-consultora/static/js/main.eca260e0.js",
     "static/media/bg-form-slow_2.mp4": "/mv-consultora/static/media/bg-form-slow_2.1bec9bb01b13415de789.mp4",
     "static/media/interval-logo.png": "/mv-consultora/static/media/interval-logo.17bc57e61716a82895aa.png",
@@ -15,11 +15,11 @@
     "static/media/passport-logo.png": "/mv-consultora/static/media/passport-logo.5b9ecafd5cdb6669eff7.png",
     "static/media/aboutus-img1.png": "/mv-consultora/static/media/aboutus-img1.f9a84d54638fd7e0c288.png",
     "index.html": "/mv-consultora/index.html",
-    "main.4c395b60.css.map": "/mv-consultora/static/css/main.4c395b60.css.map",
+    "main.e8ad57dc.css.map": "/mv-consultora/static/css/main.e8ad57dc.css.map",
     "main.eca260e0.js.map": "/mv-consultora/static/js/main.eca260e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c395b60.css",
+    "static/css/main.e8ad57dc.css",
     "static/js/main.eca260e0.js"
   ]
 }
