@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+#form {
+  height: 95vh;
+  scroll-behavior: smooth;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  padding-top: 90px;
+}
+
 #video-container {
   position: absolute;
   top: 0;
@@ -30,15 +39,6 @@ video {
   width: 100%;
   object-fit: cover;
   filter: brightness(200%);
-}
-
-.main {
-  height: 100vh;
-  scroll-behavior: smooth;
-  width: 100%;
-  display: flex;
-  gap: 40px;
-  padding-top: 90px;
 }
 
 .container {
