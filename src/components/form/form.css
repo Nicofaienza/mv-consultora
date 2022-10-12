@@ -21,7 +21,7 @@
   height: 100%;
   width: 100%;
   background: #000;
-  filter: opacity(85%) brightness(20%);
+  filter: opacity(95%);
 }
 
 video {
@@ -29,7 +29,7 @@ video {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: opacity(100%);
+  filter: brightness(200%);
 }
 
 .main {
@@ -103,7 +103,6 @@ video {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  background-color: white;
   padding: 15px;
 }
 
@@ -118,7 +117,6 @@ video {
   border-radius: 5px;
   width: 100%;
   height: 120px;
-  background-color: white;
   padding: 15px;
 }
 
